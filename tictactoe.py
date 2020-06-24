@@ -187,10 +187,6 @@ class AIPlayer(TicTacToe):
         return self.who_won()
     return "Draw"
 
- 
-  
-  
-  
 def menu():
   choice = int(input("\tChoose 1 to play against a MACHINE: \n\tChoose 2 to play against a HUMAN: "))
   if choice == 1:
