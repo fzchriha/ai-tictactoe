@@ -48,8 +48,6 @@ class TicTacToe(object):
           i = 3 - y
           j = x - 1
           # Check if the move chosen is valid
-          # coordinates should be between 1 and 3
-          # board should be empty
           if x not in valid_move or  y not in valid_move:
             print("Coordinates should be from 1 to 3!\n")
             self.validate_move(player)
